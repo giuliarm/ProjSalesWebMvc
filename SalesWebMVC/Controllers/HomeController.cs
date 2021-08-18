@@ -16,13 +16,13 @@ namespace SalesWebMVC.Controllers {
         public IActionResult About() {
             ViewData["Message"] = "Sales Web MVC App from C# Course ";
             ViewData["Professor"]= "Nélio Alves";
-            ViewData["By"] = "Giulia Ramos";
+            ViewData["By"] = "Udemy plataform";
 
             return View();
         }
 
         public IActionResult Contact() {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "Any suggestion? Let's talk about!";
 
             return View();
         }
